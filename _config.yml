@@ -1,3 +1,11 @@
 theme: minima
 title: ICS496 demonstration
 description: created by Xavier Burt, Tanner Berry, and Yirui Wang for the purpose of demonstrating what we have been working on to the rest of the ICS496 class.
+
+# -------------------------------
+# Fishy AI weekly‑update section
+collections:
+  weekly:
+    output: true                   # build pages into _site
+    permalink: /weekly-updates/:name/   # clean URLs
+# -------------------------------
